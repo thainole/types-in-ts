@@ -1,0 +1,11 @@
+{
+  "name": "types-in-ts",
+  "version": "1.0.0",
+  "description": "A repository about types in TS",
+  "main": "app.js",
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Thais Illescas",
+  "license": "MIT"
+}
