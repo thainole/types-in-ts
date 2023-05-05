@@ -1,4 +1,4 @@
-interface Person {
+interface RegularPerson {
   readonly name: string; // esta propiedad no se podrá modificar
   age: number;
   gender: 'F' | 'M';
@@ -7,12 +7,12 @@ interface Person {
   playSongs?: () => void;
 }
 
-interface PersonWithPets extends Person {
+interface PersonWithPets extends RegularPerson {
   typeOfPet: 'dog' | 'cat';
   pet: string[] | string;
 }
 
-const artist: Person = {
+const artist: RegularPerson = {
   name: 'Taylor Swift',
   age: 33,
   gender: 'F',
